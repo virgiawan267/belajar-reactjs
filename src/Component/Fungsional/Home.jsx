@@ -1,21 +1,13 @@
 import React from 'react'
-import Blog from './Blog'
+import Produk from '../Class/Produk';
+//import Blog from './Blog'
 
 const Home = () => {
     return <div>
-        <Blog 
-        tanggal="09 Juni 2020"
-        judul="Teknologi Blockchain"
-        summary="Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator."/>
-        <Blog 
-        tanggal="10 Juni 2020"
-        judul="Teknologi Internet"
-        summary="Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator."/>
-        <Blog 
-        tanggal="11 Juni 2020"
-        judul="Teknologi Reactjs"
-        summary="Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator."/>
-
+        <Produk nama="Dell XPS 15 Laptop" stock="12" harga="16000000" />
+        <Produk nama="Dell XPS 16 Laptop" stock="10" harga="17000000" />
+        <Produk nama="Dell XPS 17 Laptop" stock="19" harga="18000000" />
+        <Produk nama="Dell XPS 18 Laptop" stock="25" harga="19000000" />
     </div>
 }
 
