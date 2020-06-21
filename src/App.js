@@ -11,6 +11,7 @@ import HomePage from './Component/Fungsional/HomePages';
 import About from './Component/Fungsional/AboutComp'
 // import DetailComp from './Component/Fungsional/DetailComp';
 import ListComp from './Component/Class/ListComp';
+import TambahComp from './Component/Class/TambahComp';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route exact path="/" component={HomePage} />
       <Route exact path="/about" component={About} />
       <Route exact path="/mahasiswa" component={ListComp} />
+      <Route exact path="/mahasiswa/tambah" component={TambahComp} />
 
       {/* <Route exact path="/detail/:id" component={DetailComp} /> */}
 

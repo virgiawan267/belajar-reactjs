@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react'
 import axios from 'axios'
 import qs from 'querystring'
-import {Table, Button, Container, Navlink, Alert} from 'reactstrap'
+import {Table, Button, Container, NavLink, Alert} from 'reactstrap'
 
 const api = 'http://localhost:3001'
 
@@ -29,6 +29,7 @@ class ListComp extends PureComponent {
         return (
             <Container>
                 <h2>Data Mahasiswa</h2>
+                <NavLink href="/mahasiswa/tambah"><Button color="success">Tambah Data</Button></NavLink>
                 <hr/>
                 <Table className="table-bordered">
                     <thead>
